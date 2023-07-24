@@ -1,0 +1,10 @@
+[package]
+org = "malinthaamarasinghe"
+name = "validateHeader"
+version = "1.0.1"
+export = ["validateHeader"]
+distribution = "2201.3.1"
+keywords = ["choreo-apim-mediation-policy","choreo-apim-mediation-request-flow","choreo-apim-mediation-response-flow","choreo-apim-mediation-fault-flow"]
+
+[build-options]
+observabilityIncluded = true
