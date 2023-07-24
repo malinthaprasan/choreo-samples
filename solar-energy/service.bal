@@ -10,7 +10,6 @@ service /solar\-energy on new http:Listener(9090) {
     
     private mongodb:ConnectionConfig conf = {
         connection: {
-            //"mongodb+srv://admin:admin@cluster0.jnh4o.mongodb.net/?retryWrites=true&w=majority"
             url: os:getEnv("MONGO_URL")
         },
         databaseName: "SolarDB"
